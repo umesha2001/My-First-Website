@@ -119,4 +119,4 @@ Feel free to fork this project and submit pull requests for any improvements.
 
 ---
 
-Made with ❤️ by Kawee Nethuli
+Made with ❤️ by Umesha Jayakody
