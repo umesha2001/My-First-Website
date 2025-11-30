@@ -1,5 +1,32 @@
 # Kawee Flavors - Cake Designer Portfolio Website
 
+## Backend (Node.js + PostgreSQL)
+
+This project now includes a backend server using Node.js/Express and PostgreSQL. The backend is located in the `backend/` folder and provides API endpoints for dynamic data.
+
+### Backend Setup
+1. Go to the `backend` folder:
+   ```
+   cd backend
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Update PostgreSQL credentials in `server.js` if needed.
+4. Start the backend server:
+   ```
+   npm start
+   ```
+5. The backend runs at `http://localhost:3001`.
+
+### Connecting Frontend and Backend
+The frontend uses JavaScript `fetch` to call backend API endpoints. Example: it fetches the current time from `/api/test` and displays it in the page.
+
+Make sure the backend server is running before opening `index.html` in your browser.
+
+---
+
 A modern, responsive portfolio website for Kawee Nethuli, a professional cake designer specializing in custom cakes for various celebrations.
 
 ## 🎨 Features

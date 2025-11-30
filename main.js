@@ -39,6 +39,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Add active state to navigation links
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.navlist a');
+// Fetch backend data and display in #result
+fetch('http://localhost:3001/api/test')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('result').textContent = data.time;
+  })
+  .catch(error => console.error('Error:', error));
 
 function setActiveLink() {
   let current = '';
